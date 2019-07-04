@@ -2,8 +2,9 @@
   "name": "react-skeletons",
   "version": "0.1.0",
   "description": "Beautiful, animated loading skeletons to show while your view loads",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "build": "rm -rf build/ && babel ./src --out-dir ./build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -17,7 +18,9 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
