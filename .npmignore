@@ -5,3 +5,5 @@ stories/
 .babelrc
 
 src/
+
+.editorconfig

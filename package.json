@@ -1,13 +1,14 @@
 {
   "name": "react-skeletons",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Beautiful, animated loading skeletons to show while your view loads",
   "main": "build/index.js",
   "scripts": {
-    "build": "rm -rf build/ && babel ./src --out-dir ./build",
+    "build": "rm -rf build/ && babel ./src --out-dir ./build -s inline --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "react",
