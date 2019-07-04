@@ -1,0 +1,43 @@
+/* Animation */
+.react-skeleton__animation {
+  background: linear-gradient(90deg, #F2F2F2 25%, #E3E3E3 40%, #F2F2F2 70%);
+  animation: skeleton-shimmer 1.6s ease infinite;
+  -webkit-animation: skeleton-shimmer 1.6s ease infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes skeleton-shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.react-skeleton__line {
+  /* background: #F2F2F2; */
+  background-repeat: no-repeat;
+  background-size: 400% 100%;
+  height: 16px;
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+}
+
+.react-skeleton__line:last-child {
+  width: 75%;
+}
+
