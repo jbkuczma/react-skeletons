@@ -1,5 +1,5 @@
 /* Animation */
-.react-skeleton__animation {
+.react-skeletons__animation {
   background: linear-gradient(90deg, #F2F2F2 25%, #E3E3E3 40%, #F2F2F2 70%);
   animation: skeleton-shimmer 1.6s ease infinite;
   -webkit-animation: skeleton-shimmer 1.6s ease infinite;
@@ -25,7 +25,7 @@
   }
 }
 
-.react-skeleton__line {
+.react-skeletons__line {
   /* background: #F2F2F2; */
   background-repeat: no-repeat;
   background-size: 400% 100%;
@@ -37,7 +37,7 @@
   position: relative;
 }
 
-.react-skeleton__container > .react-skeleton__line:last-child {
+.react-skeletons__container > .react-skeletons__line:last-child {
   width: 75%;
 }
 

@@ -9,7 +9,7 @@ const Skeleton = ({
   const linesToRender = Array.apply(null, { length: count }).map(Number.call, Number);
 
   return (
-    <div className='react-skeleton__container'>
+    <div className='react-skeletons__container'>
       { linesToRender.map((_, index) =>
         <Line
           key={`react-skeletons-line-${index}`}

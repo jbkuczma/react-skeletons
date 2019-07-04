@@ -2,10 +2,10 @@ import React from 'react';
 import './styles.css';
 
 const Line = ({ animated, ...props }) => {
-  let classnames = ['react-skeleton__line'];
+  let classnames = ['react-skeletons__line'];
 
   if (animated) {
-    classnames.push('react-skeleton__animation');
+    classnames.push('react-skeletons__animation');
   }
 
   return (
