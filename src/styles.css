@@ -37,7 +37,7 @@
   position: relative;
 }
 
-.react-skeleton__line:last-child {
+.react-skeleton__container > .react-skeleton__line:last-child {
   width: 75%;
 }
 
