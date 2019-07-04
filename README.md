@@ -1,3 +1,7 @@
+[![minifed size](https://img.shields.io/bundlephobia/min/react-skeletons.svg?style=flat-square)]()
+[![minzip size](https://img.shields.io/bundlephobia/minzip/react-skeletons.svg?style=flat-square)]()
+[![npm version](https://badge.fury.io/js/react-skeletons.svg)]()
+
 # react-skeletons
 Create beautiful and animated loading skeletons as your views load
 
