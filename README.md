@@ -11,14 +11,16 @@ Create beautiful and animated loading skeletons as your views load
 
 ```jsx
   import Skeleton from 'react-skeletons';
-  
+
   <Skeleton />
 ```
 
 ## Advanced usage
 
-```jsx
-  import { Line } from 'react-skeletons';
+Run react-skeleton's storybook and view "Custom Skeletons"
+
+```bash
+  npm run storybook
 ```
 
 ## Components
@@ -33,3 +35,11 @@ Create beautiful and animated loading skeletons as your views load
 | Prop | Type | Description | Default |
 |------|------|-------------|---------|
 | animated | Boolean | Should the line be animated | true |
+
+### Box
+| Prop | Type | Description | Default |
+|------|------|-------------|---------|
+| animated | Boolean | Should the line be animated | true |
+| auto | Boolean | Fill container; set's `width` and `height` to `100%` | false |
+| height | Number | Height of box (in px) | 72 |
+| width | Number | Width of box (in px) | 72 |
