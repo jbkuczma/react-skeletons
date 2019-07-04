@@ -17,8 +17,10 @@ Create beautiful and animated loading skeletons as your views load
 
 ## Advanced usage
 
-```jsx
-  import { Line } from 'react-skeletons';
+Run react-skeleton's storybook and view "Custom Skeletons"
+
+```bash
+  npm run storybook
 ```
 
 ## Components
