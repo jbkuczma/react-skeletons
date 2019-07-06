@@ -12,17 +12,14 @@ const Box = ({
   const boxHeight = auto ? '100%' : height;
   const boxWidth = auto ? '100%' : width;
 
-  if (animated) {
-    classnames.push('react-skeletons__animation');
-  }
+  animated ?  classnames.push('react-skeletons__animation') : classnames.push('react-skeleton__base');
 
   return (
     <div
       className={classnames.join(' ')}
       style={{
         height: boxHeight,
-        width: boxWidth,
-        background: !animated && '#F2F2F2'
+        width: boxWidth
       }}
     />
   );
