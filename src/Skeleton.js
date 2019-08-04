@@ -3,9 +3,9 @@ import Line from './Line';
 
 const Skeleton = ({
   count,
-  animated
+  animated,
+  ...props
 }) => {
-
   const linesToRender = Array.apply(null, { length: count }).map(Number.call, Number);
 
   return (

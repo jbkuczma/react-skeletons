@@ -1,6 +1,16 @@
+:root {
+  --react-skeleton-primary-color: #F2F2F2;
+  --react-skeleton-highlight-color: #E3E3E3;
+}
+
 /* Animation */
 .react-skeletons__animation {
-  background: linear-gradient(90deg, #F2F2F2 25%, #E3E3E3 40%, #F2F2F2 70%);
+  background: linear-gradient(
+    90deg,
+    var(--react-skeleton-primary-color) 25%,
+    var(--react-skeleton-highlight-color) 40%,
+    var(--react-skeleton-primary-color) 70%
+  );
   animation: skeleton-shimmer 1.6s ease infinite;
   -webkit-animation: skeleton-shimmer 1.6s ease infinite;
 }
@@ -23,6 +33,10 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.react-skeleton__base {
+  background: --react-skeleton-primary-color;
 }
 
 /* Line */
